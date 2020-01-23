@@ -1,4 +1,4 @@
-# ICS PCAPS
+# ICS PCAPS 🌐 
 
 
 
@@ -9,7 +9,7 @@ Pcap dosyaları sayesinde geçen trafik hakkında bilgi alınabilir. Adli Biliş
 Repoda Endüstriyel Kontrol Sistemlerinde kullanılan OT ve IT protokollere ait pcap dosyaları bulunmaktadır. Pcap dosyalarında geçen paketleri analiz ederek bu protokollerin yapısı, veri gönderme şekli, katmanları hakkında bilgi sahibi olabilirsiniz.
 
 
-# 🌐 
+
 
 
 
