@@ -1,0 +1,47 @@
+IEC61850 Sampled Values
+    APPID: 0x4000
+    Length: 109
+    Reserved 1: 0x0000 (0)
+    Reserved 2: 0x0000 (0)
+    savPdu
+        noASDU: 1
+        seqASDU: 1 item
+            ASDU
+                svID: XJPA_MU0001
+                smpCnt: 954
+                confRef: 1
+                smpSynch: global (2)
+                PhsMeas1
+                    value: -446
+                    quality: 0x00000000, validity: good, source: process
+                        .... .... .... .... .... .... .... ..00 = validity: good (0x00000000)
+                        .... .... .... .... .... .... .... .0.. = overflow: False
+                        .... .... .... .... .... .... .... 0... = out of range: False
+                        .... .... .... .... .... .... ...0 .... = bad reference: False
+                        .... .... .... .... .... .... ..0. .... = oscillatory: False
+                        .... .... .... .... .... .... .0.. .... = failure: False
+                        .... .... .... .... .... .... 0... .... = old data: False
+                        .... .... .... .... .... ...0 .... .... = inconsistent: False
+                        .... .... .... .... .... ..0. .... .... = inaccurate: False
+                        .... .... .... .... .... .0.. .... .... = source: process (0x00000000)
+                        .... .... .... .... .... 0... .... .... = test: False
+                        .... .... .... .... ...0 .... .... .... = operator blocked: False
+                        .... .... .... .... ..0. .... .... .... = derived: False
+                    value: 981
+                    quality: 0x00000000, validity: good, source: process
+                        .... .... .... .... .... .... .... ..00 = validity: good (0x00000000)
+                        .... .... .... .... .... .... .... .0.. = overflow: False
+                        .... .... .... .... .... .... .... 0... = out of range: False
+                        .... .... .... .... .... .... ...0 .... = bad reference: False
+                        .... .... .... .... .... .... ..0. .... = oscillatory: False
+                        .... .... .... .... .... .... .0.. .... = failure: False
+                        .... .... .... .... .... .... 0... .... = old data: False
+                        .... .... .... .... .... ...0 .... .... = inconsistent: False
+                        .... .... .... .... .... ..0. .... .... = inaccurate: False
+                        .... .... .... .... .... .0.. .... .... = source: process (0x00000000)
+                        .... .... .... .... .... 0... .... .... = test: False
+                        .... .... .... .... ...0 .... .... .... = operator blocked: False
+                        .... .... .... .... ..0. .... .... .... = derived: False
+                    value: -535
+
+
